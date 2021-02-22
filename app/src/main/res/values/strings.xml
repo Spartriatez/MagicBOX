@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">MagicBOX</string>
+    <string name="img">Image</string>
+    <string name="reg">Zarejestruj się</string>
+    <string name="login">Zaloguj się</string>
+    <string name="idTxPass">Hasło</string>
+    <string name="idTxLog">Login</string>
+    <string name="msg">Jeżeli nie masz konta zarejestruj się</string>
+    <string name="idRegInfo">Formularz rejestracji</string>
+    <string name="Vorname">Imię</string>
+    <string name="Name">Nazwisko</string>
+    <string name="Passwd">Hasło</string>
+    <string name="ConfPasswd">Powtórz hasło</string>
+    <string name="EMail">Adres mailowy</string>
+    <string name="PhoneNr">Numer Telefonu</string>
+    <string name="regBtn">Zarejestruj</string>
+    <string name="idLoginText">Nazwa konta</string>
+
+    <string name="idMyBox">Moje BOXy</string>
+    <string name="idAddBox">Dodaj BOX</string>
+    <string name="idEditBox">Edytuj BOX</string>
+    <string name="QRCode">Wyszukaj</string>
+    <string name="Logout">Wyloguj</string>
+    <string name="editProf">Edytuj konto</string>
+
+    <string name="autoLogMess">Jeżeli nie chcesz logować się na tej aplikacji, włącz autologowanie</string>
+    <string name="chechBoxText">Włącz autologowanie</string>
+
+    <string name="EditUser">Edycja konta</string>
+    <string name="SaveChanges">Zapisz zmiany</string>
+    <string name="Vorname2">Imię</string>
+    <string name="Name2">Nazwisko</string>
+    <string name="EMail2">Adres mailowy</string>
+    <string name="PhoneNr2">Numer Telefonu</string>
+    <string name="regBtn2">Zarejestruj</string>
+    <string name="idLoginText2">Nazwa konta</string>
+    <string name="autoLogMess2">Czy włączone autologowanie</string>
+    <string name="chechBoxText2">Włącz autologowanie</string>
+
+    <string name="ChangePassw">Zmiana Hasła</string>
+    <string name="OldPasswd">Stare Hasło</string>
+    <string name="Passwd2">Hasło</string>
+    <string name="ConfPasswd2">Powtórz hasło</string>
+    <string name="SavePasswd">Zmień hasło</string>
+
+    <string name="NameRoom">Krok 1: Wybierz pomieszczenie z listy lub stwórz nowe(kliknik plus znajdujący się przy polu wyboru)</string>
+    <string name="NameBox">Krok 2: Podaj nazwę boxu</string>
+    <string name="QRCodeGen">Wygeneruj QR kod</string>
+    <string name="Save">Zapisz</string>
+
+    <string name="Change">Zamień</string>
+    <string name="Delete">Usuń</string>
+    <string name="checkBox">Wybierz Box</string>
+    <string name="ChangeRoom">Zmień nazwę</string>
+    <string name="QrCodeShow">Wygenerowany QR kod</string>
+    <string name="changeNamePhoto">Zmień nazwę zdjęcia</string>
+    <string name="skanuj">Skanuj</string>
+    <string name="idLikeBox">Moje ulubione BOXY</string>
+    <string name="idRecycle">Kosz</string>
+    <string name="idInfo">Informacje o Programie</string>
+    <string name="internMem">Pamięć wewnętrzna</string>
+    <string name="externMem">Pamięć zewnętrzna</string>
+    <string name="idMemText">Wybierz pamięć do zapisu</string>
+    <string name="idWarrningText">Uwaga! W przypadku posiadania dużej ilości danych zaleca się wybranie opcji \"Pamięć zewnętrzna\"</string>
+    <string name="idStep3">Krok 3: Wygeneruj QR kod</string>
+    <string name="NameBox2">Wybrany BOX</string>
+    <string name="idTxNameTools">Krok 1: Podaj nazwę przedmiotu</string>
+    <string name="idTxSelBoxe">Krok 2: Wybierz BOX do zapisu</string>
+    <string name="idTxGenQrCode">Krok 3: Wygeneruj QR kod narzedzia</string>
+    <string name="idTxCommentPool">Krok 4: Dodaj komentarz ( nie obowiązkowe ) i naciśnij aparat</string>
+    <string name="title_activity_my_boxes2">MyBoxes2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_my_boxes">MyBoxes</string>
+    <string name="idChangeRoom">Zmień nazwę pokoju</string>
+    <string name="idMoveBox">Przenieś do innego pomieszczenia</string>
+    <string name="idTxRoomName">Nazwa pokoju</string>
+    <string name="NameRoom2">Krok 1: Wybierz pomieszczenie</string>
+    <string name="idDeteleRoom">Usuń pomieszczenie</string>
+    <string name="idSelRoom">Wybierz pokój</string>
+    <string name="idTxNewRoomName">Wybierz nową nazwę pokoju</string>
+    <string name="idBeforeRoom">Aktualna nazwa Boxa</string>
+    <string name="idNewRoomChecked">Wybierz pokój aby przenieść Box</string>
+    <string name="idTxBefRoom">Wybierz aktualne pomieszczenie do przeniesienia</string>
+    <string name="idTxBox2">Wybierz aktualny Box</string>
+    <string name="idAfRoom">Wybierz pomieszczenie do przeniesienia</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_gallery_box">GalleryBox</string>
+    <string name="idAddToolBox">Dodaj zdjęcie przedmiotu</string>
+    <string name="title_activity_tools_detail">ToolsDetail</string>
+</resources>

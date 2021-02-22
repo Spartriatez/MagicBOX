@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idScrlRegMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangePasswd">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/idRegChRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/idSaveChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="32dp"
+            android:onClick="changePasswd"
+            android:text="@string/SaveChanges"
+            android:textColor="#ffffff"
+            android:theme="@style/Button1Style"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/idBack2"
+            app:layout_constraintTop_toBottomOf="@+id/idConfPasswd2" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/idBack2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:onClick="goToBack"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/idSaveChange"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idConfPasswd2"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/idChangePasswdTx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/ChangePassw"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/idOldPasswdTx"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/idOldPasswdTx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/OldPasswd"
+            app:layout_constraintBottom_toTopOf="@+id/idOldPasswd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idChangePasswdTx" />
+
+        <EditText
+            android:id="@+id/idOldPasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:labelFor="@+id/idOldPasswd"
+            app:layout_constraintBottom_toTopOf="@+id/idPasswdTx"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idOldPasswdTx"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/idPasswdTx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/Passwd2"
+            app:layout_constraintBottom_toTopOf="@+id/idPasswd2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idOldPasswd" />
+
+        <EditText
+            android:id="@+id/idPasswd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:labelFor="@+id/idPasswd2"
+            app:layout_constraintBottom_toTopOf="@+id/idConfPasswdTX"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idPasswdTx"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/idConfPasswdTX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/ConfPasswd2"
+            app:layout_constraintBottom_toTopOf="@+id/idConfPasswd2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idPasswd2" />
+
+        <EditText
+            android:id="@+id/idConfPasswd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:labelFor="@+id/idConfPasswd2"
+            app:layout_constraintBottom_toTopOf="@+id/idBack2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idConfPasswdTX"
+            android:autofillHints="" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
